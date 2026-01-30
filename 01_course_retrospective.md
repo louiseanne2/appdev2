@@ -2,7 +2,7 @@
 
 ### Name: Louise  
 ### Course: Bachelor of Science in Information System  
-### Section: BSIS-3  
+### Section: BSIS-3B
 
 ---
 
