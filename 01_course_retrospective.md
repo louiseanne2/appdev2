@@ -1,6 +1,6 @@
 # Course Retrospective Assignment
 
-### Name: Louise  
+### Name: Louise Anne Bechayda
 ### Course: Bachelor of Science in Information System  
 ### Section: BSIS-3B
 
