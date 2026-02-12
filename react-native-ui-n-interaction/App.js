@@ -1,6 +1,6 @@
 import React from 'react';
-import FixedDimensionsBasics from './screens/FixedDimensions';
+import FlexDimensionsBasics from './screens/FlexDimensions';
 
 export default function App() {
-  return <FixedDimensionsBasics />;  
+  return <FlexDimensionsBasics />;  
 }
