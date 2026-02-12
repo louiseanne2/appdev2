@@ -1,6 +1,6 @@
 import React from 'react';
-import FlexDirectionBasics from './screens/FlexDirection';
+import DirectionLayout from './screens/LayoutDirection';
 
 export default function App() {
-  return <FlexDirectionBasics />;  
+  return <DirectionLayout />;  
 }
