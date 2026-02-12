@@ -1,6 +1,6 @@
 import React from 'react';
-import LotsOfStyles from './screens/style';
+import FixedDimensionsBasics from './screens/FixedDimensions';
 
 export default function App() {
-  return <LotsOfStyles />;  
+  return <FixedDimensionsBasics />;  
 }
