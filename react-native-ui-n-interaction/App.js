@@ -1,6 +1,6 @@
 import React from 'react';
-import FlexDimensionsBasics from './screens/FlexDimensions';
+import PercentageDimensionsBasics from './screens/PercentageDimensions';
 
 export default function App() {
-  return <FlexDimensionsBasics />;  
+  return <PercentageDimensionsBasics />;  
 }
