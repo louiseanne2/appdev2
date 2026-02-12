@@ -1,6 +1,6 @@
 import React from 'react';
-import JustifyContentBasics from './screens/JustifyContent';
+import AlignItemsLayout from './screens/Align';
 
 export default function App() {
-  return <JustifyContentBasics />;  
+  return <AlignItemsLayout />;  
 }
