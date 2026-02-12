@@ -1,6 +1,6 @@
 import React from 'react';
-import DirectionLayout from './screens/LayoutDirection';
+import JustifyContentBasics from './screens/JustifyContent';
 
 export default function App() {
-  return <DirectionLayout />;  
+  return <JustifyContentBasics />;  
 }
