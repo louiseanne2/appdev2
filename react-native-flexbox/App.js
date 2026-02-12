@@ -1,6 +1,6 @@
 import React from 'react';
-import Flex from './screens/Flex';
+import FlexDirectionBasics from './screens/FlexDirection';
 
 export default function App() {
-  return <Flex />;  
+  return <FlexDirectionBasics />;  
 }
