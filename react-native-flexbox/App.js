@@ -1,6 +1,6 @@
 import React from 'react';
-import AlignItemsLayout from './screens/Align';
+import AlignSelfLayout from './screens/AlignSelf';
 
 export default function App() {
-  return <AlignItemsLayout />;  
+  return <AlignSelfLayout />;  
 }
