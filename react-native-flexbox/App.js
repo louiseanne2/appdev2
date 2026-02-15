@@ -1,6 +1,6 @@
 import React from 'react';
-import AlignContentLayout from './screens/AlignContent';
+import FlexWrapLayout from './screens/FlexWrap';
 
 export default function App() {
-  return <AlignContentLayout />;  
+  return <FlexWrapLayout />;  
 }
