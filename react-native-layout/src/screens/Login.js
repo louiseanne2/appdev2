@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, Image, TextInput } from 'react-native';
+import { StyleSheet, Text, View, Image, TextInput, TouchableOpacity } from 'react-native';
 import Ionicons from '@expo/vector-icons/Ionicons';
 
 
@@ -24,7 +24,11 @@ export default function App() {
         </View>
 
 
-        <View style={styles.footer}></View>
+        <View style={styles.footer}>
+            <TouchableOpacity style={styles.loginButton}>
+                <Text style={styles.loginButtonText}>LOGIN</Text>
+            </TouchableOpacity>
+        </View>
 
 
 
