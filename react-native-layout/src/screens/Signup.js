@@ -94,74 +94,74 @@ const styles = StyleSheet.create({
     },
 
     footer: {
-  paddingHorizontal: 30,
-  paddingBottom: 30,
-},
-signupButton: {
-  backgroundColor: '#7CEFA3',
-  paddingVertical: 14,
-  borderRadius: 10,
-  alignItems: 'center',
-  marginBottom: 20,
-},
-signupButtonText: {
-  fontSize: 16,
-  fontWeight: 'bold',
-  color: '#000',
-},
+        paddingHorizontal: 30,
+        paddingBottom: 30,
+    },
+    signupButton: {
+        backgroundColor: '#7CEFA3',
+        paddingVertical: 14,
+        borderRadius: 10,
+        alignItems: 'center',
+        marginBottom: 20,
+    },
+    signupButtonText: {
+        fontSize: 16,
+        fontWeight: 'bold',
+        color: '#000',
+    },
 
 
-orContainer: {
-  flexDirection: 'row',
-  alignItems: 'center',
-  marginBottom: 20,
-},
-line: {
-  flex: 1,
-  height: 1,
-  backgroundColor: '#ccc',
-},
-orText: {
-  marginHorizontal: 10,
-  color: '#666',
-  fontWeight: '600',
-},
+    orContainer: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        marginBottom: 20,
+    },
+    line: {
+        flex: 1,
+        height: 1,
+        backgroundColor: '#ccc',
+    },
+    orText: {
+        marginHorizontal: 10,
+        color: '#666',
+        fontWeight: '600',
+    },
 
 
-socialContainer: {
-  gap: 12,
-},
+    socialContainer: {
+        gap: 12,
+    },
 
-facebook: {
-  flexDirection: 'row',
-  alignItems: 'center',
-  justifyContent: 'center',
-  backgroundColor: '#1877F2',
-  paddingVertical: 12,
-  borderRadius: 10,
-  gap: 10,
-},
+    facebook: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: '#1877F2',
+        paddingVertical: 12,
+        borderRadius: 10,
+        gap: 10,
+    },
 
-google: {
-  flexDirection: 'row',
-  alignItems: 'center',
-  justifyContent: 'center',
-  backgroundColor: '#fff',
-  paddingVertical: 12,
-  borderRadius: 10,
-  borderWidth: 1,
-  borderColor: '#ddd',
-  gap: 10,
-},
+    google: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: '#fff',
+        paddingVertical: 12,
+        borderRadius: 10,
+        borderWidth: 1,
+        borderColor: '#ddd',
+        gap: 10,
+    },
 
-socialText: {
-  color: '#fff',
-  fontWeight: '600',
-},
+    socialText: {
+        color: '#fff',
+        fontWeight: '600',
+    },
 
-socialTextGoogle: {
-  color: '#000',
-  fontWeight: '600',
-},
+    socialTextGoogle: {
+        color: '#000',
+        fontWeight: '600',
+    },
 
-});
+    });
