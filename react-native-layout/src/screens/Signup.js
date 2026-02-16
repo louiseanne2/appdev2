@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, TextInput } from 'react-native';
 
 
 export default function App() {
@@ -15,7 +15,12 @@ export default function App() {
       </View>
 
 
-      <View style={styles.content}></View>
+      <View style={styles.content}>
+        <TextInput placeholder="Name" style={styles.inputContainer} />
+        <TextInput placeholder="Email" style={styles.inputContainer} />
+        <TextInput placeholder="Password" style={styles.inputContainer} secureTextEntry />
+        <TextInput placeholder="Confirm Password" style={styles.inputContainer} secureTextEntry />
+      </View>
 
 
       <View style={styles.footer}></View>
@@ -53,11 +58,21 @@ const styles = StyleSheet.create({
         fontWeight: 'bold',
     },
     content: {
-        flex: 2,
+        alignItems: 'center',
+        marginBottom: 20,
     },
-    content: {
-        flex: 2
+    inputContainer: {
+        width: '90%',
+        marginTop: 15,
+        flexDirection: 'row',
+        alignItems: 'center',
+        backgroundColor: 'white',
+        borderWidth: 1,
+        borderRadius:10,
+        paddingHorizontal: 15,
+        height: 50
     },
+
     footer: {
         flex: 1,
     }
