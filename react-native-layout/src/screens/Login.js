@@ -28,6 +28,10 @@ export default function App() {
             <TouchableOpacity style={styles.loginButton}>
                 <Text style={styles.loginButtonText}>LOGIN</Text>
             </TouchableOpacity>
+            <View style={styles.inputText}>
+                <Text style={styles.message}> Don't have an account?</Text>
+                <Text style={styles.link}> Sign Up</Text>
+            </View>
         </View>
 
 
@@ -77,5 +81,26 @@ const styles = StyleSheet.create({
     },
     footer: {
         flex: 1,
+    },
+    loginButton: {
+        color: 'white',
+        fontSize: 18,
+        backgroundColor: '#1e90ff',
+        paddingVertical: 15,
+        paddingHorizontal: 60,
+        borderRadius: 30,
+        alignSelf: 'center',
+        marginTop: 20,
+    },
+    inputText: {
+        flexDirection: 'row',
+        justifyContent: 'center',
+    },
+    message: {
+        fontSize: 16,
+    },
+    link: {
+        fontSize: 16,
+        color: '#1e90ff',   
     },
 });
