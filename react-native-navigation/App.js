@@ -15,6 +15,10 @@ function HomeScreen({navigation}) {
         onPress={() => navigation.navigate('Details')}
       </Button>
       
+      <Button>
+        title="Push Details Again"
+        onPress={() => navigation.push('Details')}
+      </Button>
     </View>
   )
 }
