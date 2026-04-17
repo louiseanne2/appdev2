@@ -9,6 +9,7 @@ function HomeScreen({navigation}) {
   return (
     <View>
       <Text>Home Screen</Text>
+      <Text>{message}</Text>
 
       <Button>
         title="Go to Details with name"
@@ -38,6 +39,17 @@ function DetailsScreen() {
         title="Update Name"
         onPress={() => navigation.setParams({name: 'Updated Louise'})}
       </Button>
+
+      <Button 
+        title="Send Message Back"
+        onPress={() =>
+          navigation.navigate({
+            name: 'Home',
+            params: { message: 'Hello from Details' },
+            merge: true,
+          })
+        }
+      />
     </View>
   );
 }
