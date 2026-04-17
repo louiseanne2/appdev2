@@ -33,6 +33,11 @@ function DetailsScreen() {
         title="Go Back"
         onPress={() => navigation.goBack()}
       </Button>
+
+      <Button>
+        title="Update Name"
+        onPress={() => navigation.setParams({name: 'Updated Louise'})}
+      </Button>
     </View>
   );
 }
