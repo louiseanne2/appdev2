@@ -11,8 +11,8 @@ function HomeScreen({navigation}) {
       <Text>Home Screen</Text>
 
       <Button>
-        title="Go to Details"
-        onPress={() => navigation.navigate('Details')}
+        title="Go to Details with name"
+        onPress={() => navigation.navigate('Details', {name: 'Louise'})}
       </Button>
       
       <Button>
@@ -27,11 +27,12 @@ function DetailsScreen() {
   return (
     <View>
       <Text>Details Screen</Text>
+      <Text>Hello, {name}</Text>
 
-    <Button>
-      title="Go Back"
-      onPress={() => navigation.goBack()}
-    </Button>
+      <Button>
+        title="Go Back"
+        onPress={() => navigation.goBack()}
+      </Button>
     </View>
   );
 }
