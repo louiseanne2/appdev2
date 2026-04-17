@@ -27,6 +27,11 @@ function DetailsScreen() {
   return (
     <View>
       <Text>Details Screen</Text>
+
+    <Button>
+      title="Go Back"
+      onPress={() => navigation.goBack()}
+    </Button>
     </View>
   );
 }
